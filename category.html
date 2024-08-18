@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Gadget Zone Store | Electronics selling website</title>
+        <link rel="stylesheet" href="category.css">
+        <link rel="stylesheet" href="product1.css">
+    </head>
+        <div class="header">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="home.html" alt="press logo to back to home">
+                        <img src="img/New logo3.png" alt="The Gadget Zone Store logo" width="200px"></a>
+                    </div> 
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="brands.html">Brands</a></li>
+                        <li><a href="category.html">Categories</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html">
+                <img src="img/shopping-bag.png" alt="shopping-bag icon" width="30px" height="30px"></a>
+                </div>
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="img/xiaomi1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/samsungslideshow-1" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/appleslideshow-5.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/xiaomi4.jpg" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                
+            </div>
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+
+            <!-----js------>
+
+        <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked= true;
+            counter++;
+            if(counter>4){
+                counter = 1;
+            }
+        },5000);
+        </script>
+<main>
+    <ul class="indicator">
+        <li data-filter="all" class="active"><a href="#">All</a></li>
+        <li data-filter="phones"><a href="product1.html">Phones</a></li>
+        <li data-filter="tablets"><a href="product2.html">Tablets</a></li>
+    </ul>
+    <div class="filter-condition">
+        <span>View As a</span>
+        <select name="" id="select">
+            <option value="Default">Default</option>
+            <option value="LowToHigh">Low to high</option>
+            <option value="HighToLow">High to low</option>
+        </select>
+    </div>  
+</main>
+
+<div class="small-container">
+    <div class="container-2">
+
+    <div class="row-row-2">
+        <div class="title">
+        <h2>All Products</h2></div>
+        <select>
+            <option>Defaut Sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by time release</option>
+            <option>Sort by rating</option>
+            <option>Sort by sale</option>
+        </select>
+<body>
+    <div class="row">
+        <!-----Iphone13 Series------>
+        <div class="col-4">
+            <a href="Phone/iphone13promax.html">
+            <img src="img/iphone-13-pro-max-gold-select.jpeg" alt="Iphone 13 pro max"></a>
+            <h4>Iphone 13 Pro Max</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM5299.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/iphone13pro.html">
+            <img src="img/iphone 13pro hero.jfif" alt="Iphone 13 pro"></a>
+            <h4>Iphone 13 Pro</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM4899.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/iphone13.html">
+            <img src="img/iphone 13-hero.jfif" alt="Iphone 13"></a>
+            <h4>Iphone 13</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM3899.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Phone/iphone13mini.html">
+            <img src="img/iphone 13mini hero.jfif" alt="Iphone 13 mini"></a>
+            <h4>Iphone 13 Mini</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>RM3299.00</p>
+        </div>
+        <!-----Iphone12 Series------>
+        <div class="col-4">
+            <a href="phone/iphone12promax.html">
+            <img src="img/Iphone 12pro max-hero.jpg" alt="Iphone 12 pro max"></a>
+            <h4>Iphone 12 Pro Max</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM4299.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/iphone12pro.html">
+            <img src="img/iphone 12pro-hero.jpg " alt="Iphone 12 pro"></a>
+            <h4>Iphone 12 Pro</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM3899.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/iphone12.html">
+            <img src="img/iphone 12-hero.jfif" alt="Iphone 12"></a>
+            <h4>Iphone 12</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM3399.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/iphone12mini.html">
+            <img src="img/iphone 12mini-hero.jfif" alt="Iphone 12 mini"></a>
+            <h4>Iphone 12 mini</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>RM2899.00</p>
+        </div>
+        <!-----Xiaomi Series------>
+        <div class="col-4">
+            <a href="Phone/mi11ultra.html">
+            <img src="img/XiaomiMi11Ultra.png" alt="Mi 11 Ultra"></a>
+            <h4>Xiaomi Mi 11 Ultra</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>RM4299.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Phone/mi11.html">
+            <img src="img/xiaomi 11-hero.png" alt="Xiaomi 11" height="300" width="300"></a>
+            <h4>Xiaomi 11</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM2999.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/mi11lite.html">
+            <img src="img/mi11lite-hero.jpeg" alt="Xiaomi 11T Pro" height="280" width="300"></a>
+            <h4>Xiaomi 11 lite</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM1399.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Phone/mi11tpro.html">
+            <img src="img/11tpro1.png" alt="Xiaomi 11T Pro" height="300" width="300"></a>
+            <h4>Xiaomi 11T Pro</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM2099.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/mi11t.html">
+            <img src="img/11t1.webp" alt="Xiaomi 11T" height="" width="300"></a>
+            <h4>Xiaomi 11T</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM2099.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/pofof3.html">
+            <img src="img/pocof3-hero1.jpg" alt="Xiaomi Poco F3" height="300" width="300"></a>
+            <h4>Xiaomi Poco F3</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM1699.00</p>
+        </div>
+
+        <!-----Samsung S21 Series------>
+        <div class="col-4">
+            <a href="phone/samsungs21.html">
+            <img src="img/Samsung s21-hero.jpg" alt="Samsung S21 Ultra"></a>
+            <h4>Samsung S21 Ultra</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM4499.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Phone/samsungs21+.html">
+            <img src="img/Samsung s21-hero1.jpg" alt="Samsung s21+ 5g"></a>
+            <h4>Samsung S21+ 5g</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>RM3799.00</p>
+        </div>
+        <div class="col-4">
+            <a href="phone/samsungs21.html">
+            <img src="img/Samsung s21-5g-hero.jpg" alt="Samsung S21"></a>
+            <h4>Samsung S21</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM3199.00</p>
+        </div>
+    </div>             
+</div>
+<div class="page-btn">
+    <a href="category.html"><span>1</span></a>
+    <a href="product2.html"><span>2</span></a>
+    <a href=""><span>&#8594;</span></a>
+</div>                   
+        
+
+<!--------Brands---------->
+
+<div class="brands">
+<div class="row">
+<div class="col-5">
+    <a href="brands.html" alt="links to samsung brand">
+    <img src="img/samsunglogo.png" alt="Samsung Logo">
+    </a>
+</div>
+<div class="col-5">
+    <a href="brands.html" alt="link to xiaomi brand">
+    <img src="img/xiaomilogo.png" alt="Xiaomi logo">
+    </a>
+    </div>
+<div class="col-5">
+    <a href="brands.html" alt="link to apple brands">
+    <img src="img/colourfulapplelogo.png" alt="Apple logo" >
+    </a>
+    </div>
+</div>
+</div>
+
+<!------Footer-------->
+<footer>
+<div class="footer">
+<div class="container-footer">
+<div class="row">
+<div class="footer-col-1">
+    <h3>Download Our App</h3>
+    <p>Download App for Android and IOS mobile phone.</p>
+    <div class="app-logo">
+        <a href="https://play.google.com/store">
+        <img src="img/playstore2.png" alt="Play Store link"></a>
+        <a href="https://www.apple.com/my/app-store/">
+        <img src="img/applestorelogo.png" alt="Apple Store link"></a>
+    </div>
+    </div>
+    <div class="footer-col-2">
+        <a href="product1.html">
+        <img src="img/New logo3.png" alt="The Gadget Zone Store Logo"></a>
+        <p>Our Purpose is  To Sustainably Make The Pleasure and Benefits of our Electronics Devices Accessible to Many.</p>
+    </div>
+    <div class="footer-col-3">
+        <h3>Follow us On:</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+        </ul>
+    </div>
+</div>
+</div>
+<hr>
+<p><div class="copyright">Copyright 2021 - The Gadget Zone Store</p></div>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
